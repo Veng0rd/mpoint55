@@ -90,15 +90,38 @@
         .product-gallery-thumbs{display:flex!important;gap:8px!important;overflow-x:auto!important;padding:14px 2px 2px!important;scrollbar-width:thin!important}.product-gallery-thumbs>a{display:block!important;flex:0 0 72px!important;width:72px!important;height:58px!important;border:1px solid #d6d6d2!important;border-radius:5px!important;overflow:hidden!important}.product-gallery-thumbs>a[aria-current='true']{border-color:#30302e!important;box-shadow:0 0 0 2px #30302e33!important}.product-gallery-thumbs .it_ppic,.product-gallery-thumbs .it_ppic_a{display:block!important;width:100%!important;height:100%!important;margin:0!important;border:0!important;border-radius:0!important;background-size:cover!important}
         .gallery-nav{position:absolute!important;inset:50% 10px auto!important;transform:translateY(-50%)!important;display:flex!important;justify-content:space-between!important;pointer-events:none!important}.gallery-nav button{display:grid!important;place-items:center!important;width:40px!important;height:40px!important;min-height:40px!important;padding:0!important;border:0!important;border-radius:50%!important;background:#242424d9!important;color:#fff!important;font-size:25px!important;line-height:1!important;pointer-events:auto!important}.gallery-nav button:disabled{opacity:.35!important;cursor:default!important}
         @media(max-width:767px){
-          html,body{overflow-x:hidden!important}.header-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:10px!important;padding:12px 16px!important}.brand{flex:1 1 auto!important}.brand img{width:min(52vw,190px)!important;height:auto!important}.header-contact{margin-left:auto!important;text-align:right!important}.header-phone{font-size:16px!important}.header-widgets{order:3!important;width:100%!important;display:grid!important;grid-template-columns:1fr 1fr!important;gap:8px!important;margin:0!important}.header-widget{width:100%!important}.header-widget iframe{width:100%!important}
+          *,*:before,*:after{box-sizing:border-box!important}html,body{width:100%!important;max-width:100%!important;overflow-x:hidden!important}.site-header,.header-inner,.site-nav,.page-layout,.content{width:100%!important;max-width:100%!important;min-width:0!important}.header-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:10px!important;padding:12px 16px!important}.brand{flex:1 1 auto!important}.brand img{width:min(52vw,190px)!important;height:auto!important}.header-contact{order:2!important;width:100%!important;margin:0!important;text-align:left!important}.header-phone{font-size:16px!important}.header-widgets{order:3!important;width:100%!important;display:flex!important;overflow-x:auto!important;gap:8px!important;margin:0!important;padding-bottom:2px!important}.header-widget{flex:0 0 170px!important;width:170px!important}.header-widget iframe{width:170px!important}
           .site-nav{padding:0 16px!important;gap:19px!important;min-height:48px!important}.site-nav a,.catalog-toggle{flex:0 0 auto!important;font-size:13px!important}.page-layout{display:block!important;padding:20px 16px 38px!important}.content{min-width:0!important}.content>p:has(img){display:flex!important;justify-content:center!important;max-width:none!important}.content>p>img{width:100%!important;height:auto!important;max-width:100%!important}
-          .filter_fon_table{display:block!important;overflow:hidden!important;padding:14px!important}.filter_fon_table tbody,.filter_fon_table tr,.filter_fon_table td{display:block!important;width:auto!important;height:auto!important;padding:0!important}.filter_fon_table td{margin:9px 0!important;line-height:1.5!important}.filter_fon_table input,.filter_fon_table select{width:100%!important;max-width:none!important}.filter_fon_table .filter_fon table,.filter_fon_table .filter_fon tbody,.filter_fon_table .filter_fon tr{display:block!important;width:100%!important}.filter_fon_table .filter_fon td{display:inline-block!important;width:calc(50% - 8px)!important;vertical-align:top!important;margin:4px!important}
+          .filter_fon_table,.filter_fon_table table,.filter_fon_table tbody,.filter_fon_table tr,.filter_fon_table td{width:100%!important;max-width:100%!important;min-width:0!important}.filter_fon_table{display:block!important;overflow:hidden!important;padding:14px!important}.filter_fon_table tbody,.filter_fon_table tr,.filter_fon_table td{display:block!important;height:auto!important;padding:0!important}.filter_fon_table td{margin:9px 0!important;line-height:1.5!important}.filter_fon_table input,.filter_fon_table select{width:100%!important;max-width:none!important}.filter_fon_table #manuf{display:block!important;width:calc(100vw - 60px)!important;max-width:calc(100vw - 60px)!important}.filter_fon_table .filter_fon table,.filter_fon_table .filter_fon tbody,.filter_fon_table .filter_fon tr{display:block!important;width:100%!important}.filter_fon_table .filter_fon td{display:inline-block!important;width:calc(50% - 8px)!important;vertical-align:top!important;margin:4px!important}
           .product-grid,.variant-2 .product-grid{grid-template-columns:1fr!important}
           .product-photo,.variant-2 .product-photo{aspect-ratio:16/10!important;padding:10px!important}
           .product-title{min-height:0!important;font-size:16px!important}
           .detail-page .it_inn_table>tbody{display:flex!important;flex-direction:column!important;gap:20px!important}.detail-page .it_bigpic img{height:min(76vw,360px)!important}.gallery-nav{inset:50% 4px auto!important}.gallery-nav button{width:36px!important;height:36px!important;min-height:36px!important}.window_div .quick-order-card{padding:22px 18px!important}.window_div .quick-order-submit{width:100%!important}
         }`;
       doc.head.append(style);
+    }
+
+    // Legacy filter markup relies on width attributes and inline widths. They
+    // override a responsive table layout on narrow screens, so discard them
+    // only when the page is actually rendered as a phone layout.
+    if (doc.defaultView.matchMedia('(max-width: 767px)').matches) {
+      for (const filter of doc.querySelectorAll('.filter_fon_table')) {
+        for (const element of filter.querySelectorAll('[width], [height]')) {
+          element.removeAttribute('width');
+          element.removeAttribute('height');
+        }
+        for (const element of filter.querySelectorAll('[style]')) {
+          element.style.removeProperty('width');
+          element.style.removeProperty('height');
+          element.style.removeProperty('float');
+        }
+        const manufacturer = filter.querySelector('#manuf');
+        if (manufacturer) {
+          manufacturer.style.setProperty('display', 'block', 'important');
+          manufacturer.style.setProperty('width', 'min(330px, calc(100vw - 60px))', 'important');
+          manufacturer.style.setProperty('max-width', 'calc(100vw - 60px)', 'important');
+        }
+      }
     }
 
     for (const element of doc.querySelectorAll('button, a, input[type="submit"], input[type="button"]')) {
@@ -228,6 +251,14 @@
     const doc = frame.contentDocument;
     if (!doc || doc.documentElement.dataset.staticEnhanced === 'true') return;
     doc.documentElement.dataset.staticEnhanced = 'true';
+    // Captured pages did not contain a viewport declaration. Without it, a phone
+    // paints the desktop canvas first and only then crops it inside the iframe.
+    if (!doc.querySelector('meta[name="viewport"]')) {
+      const viewport = doc.createElement('meta');
+      viewport.name = 'viewport';
+      viewport.content = 'width=device-width, initial-scale=1';
+      doc.head.prepend(viewport);
+    }
     improveControls(doc);
     moveRatingWidgets(doc);
     placeCatalog(doc);
