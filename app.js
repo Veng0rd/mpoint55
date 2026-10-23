@@ -529,21 +529,25 @@
   };
 
   const showPreviewNotice = (doc) => {
-    if (doc.querySelector('.static-preview-notice') || doc.querySelector('.detail-page,.product-grid')) return;
-    const main = doc.querySelector('main') || doc.body;
-    if (!main) return;
-    const notice = doc.createElement('aside');
-    notice.className = 'static-preview-notice';
-    notice.setAttribute('role', 'status');
-    notice.innerHTML = '<strong>Это макет сайта</strong><span>Демонстрационная версия оригинального сайта. Сайт не принимает заказы и не продаёт товары.</span><button type="button" aria-label="Закрыть уведомление">Понятно</button>';
-    notice.querySelector('button').addEventListener('click', () => notice.remove());
-    main.prepend(notice);
+    if (doc.querySelector('.static-preview-modal') || doc.querySelector('.detail-page,.product-grid')) return;
+    const backdrop = doc.createElement('div');
+    backdrop.className = 'static-preview-modal';
+    backdrop.setAttribute('role', 'dialog');
+    backdrop.setAttribute('aria-modal', 'true');
+    backdrop.innerHTML = '<div class="static-preview-dialog"><button class="static-preview-close" type="button" aria-label="Закрыть уведомление">×</button><div class="static-preview-kicker">Демонстрационная версия</div><h2>Это макет сайта</h2><p>Перед вами макет оригинального сайта. Он не принимает заказы и не продаёт товары.</p><div class="static-preview-actions"><a class="preview-original-link" href="https://mpoint55.ru" target="_blank" rel="noopener noreferrer">Открыть оригинальный сайт</a><button class="static-preview-confirm" type="button">Понятно</button></div></div>';
+    const close = () => { backdrop.remove(); doc.body.style.overflow = ''; };
+    backdrop.addEventListener('click', (event) => { if (event.target === backdrop) close(); });
+    backdrop.querySelectorAll('.static-preview-close,.static-preview-confirm').forEach((button) => button.addEventListener('click', close));
+    doc.body.append(backdrop);
+    doc.body.style.overflow = 'hidden';
+    backdrop.querySelector('.static-preview-confirm')?.focus();
   };
 
   const keepNavigationLocal = (doc) => {
     doc.addEventListener('click', (event) => {
       const link = event.target.closest('a[href]');
       if (!link) return;
+      if (link.classList.contains('preview-original-link')) return;
       const rawHref = link.getAttribute('href')?.trim() || '';
       if (rawHref.startsWith('#')) return;
       const url = new URL(link.href, doc.baseURI);
