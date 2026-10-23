@@ -529,7 +529,7 @@
   };
 
   const showPreviewNotice = (doc) => {
-    if (doc.querySelector('.static-preview-modal') || doc.querySelector('.detail-page,.product-grid')) return;
+    if (doc.querySelector('.static-preview-modal') || !doc.querySelector('img[alt="Мототехника — Мототочка"]')) return;
     const backdrop = doc.createElement('div');
     backdrop.className = 'static-preview-modal';
     backdrop.setAttribute('role', 'dialog');
