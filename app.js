@@ -121,7 +121,8 @@
         .detail-page .it_inn_table>tbody{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)!important;gap:32px!important;align-items:start!important}
         .detail-page .it_bigpic,.detail-page .it_bigpic_holder{min-width:0!important}.detail-page .it_bigpic table{height:auto!important}.detail-page .it_bigpic img{display:block!important;width:100%!important;height:clamp(260px,32vw,420px)!important;max-height:420px!important;object-fit:contain!important}
         .product-gallery-thumbs{display:flex!important;gap:8px!important;overflow-x:auto!important;padding:14px 2px 2px!important;scrollbar-width:thin!important}.product-gallery-thumbs>a{display:block!important;flex:0 0 72px!important;width:72px!important;height:58px!important;border:1px solid #d6d6d2!important;border-radius:5px!important;overflow:hidden!important}.product-gallery-thumbs>a[aria-current='true']{border-color:#30302e!important;box-shadow:0 0 0 2px #30302e33!important}.product-gallery-thumbs .it_ppic,.product-gallery-thumbs .it_ppic_a{display:block!important;width:100%!important;height:100%!important;margin:0!important;border:0!important;border-radius:0!important;background-size:cover!important}
-        .gallery-nav{position:absolute!important;inset:50% 10px auto!important;transform:translateY(-50%)!important;display:flex!important;justify-content:space-between!important;pointer-events:none!important}.gallery-nav button{display:grid!important;place-items:center!important;width:40px!important;height:40px!important;min-height:40px!important;padding:0!important;border:0!important;border-radius:50%!important;background:#242424d9!important;color:#fff!important;font-size:25px!important;line-height:1!important;pointer-events:auto!important}.gallery-nav button:disabled{opacity:.35!important;cursor:default!important}
+        .gallery-nav{position:absolute!important;top:50%!important;left:0!important;right:0!important;bottom:auto!important;transform:translateY(-50%)!important;display:flex!important;align-items:center!important;justify-content:space-between!important;padding:0 10px!important;z-index:50!important;pointer-events:none!important}.gallery-nav button{position:relative!important;z-index:51!important;display:grid!important;place-items:center!important;width:40px!important;height:40px!important;min-height:40px!important;padding:0!important;border:0!important;border-radius:50%!important;background:#242424d9!important;color:#fff!important;font-size:25px!important;line-height:1!important;pointer-events:auto!important}.gallery-nav button:disabled{opacity:.35!important;cursor:default!important}.product-gallery-stage>a.it_tag,.product-gallery-stage>#it_bigpic_a{pointer-events:none!important;z-index:0!important}
+        @media(max-width:900px){.detail-page .it_inn_table>tbody{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:24px!important}.detail-page .it_inn_table>tbody>tr,.detail-page .it_inn_table>tbody>tr>td{display:block!important;width:100%!important}.detail-page .it_bigpic,.detail-page .it_bigpic_holder,.detail-page .product-gallery-stage{display:block!important;visibility:visible!important;opacity:1!important}.detail-page .product-gallery-stage{height:clamp(320px,46vw,430px)!important}}
         @media(max-width:767px){
           *,*:before,*:after{box-sizing:border-box!important}html,body{width:100%!important;max-width:100%!important;overflow-x:hidden!important}.site-header,.header-inner,.site-nav,.page-layout,.content{width:100%!important;max-width:100%!important;min-width:0!important}.header-inner{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:10px!important;padding:12px 16px!important}.brand{flex:1 1 auto!important}.brand img{width:min(52vw,190px)!important;height:auto!important}.header-contact{order:2!important;width:100%!important;margin:0!important;text-align:left!important}.header-phone{font-size:16px!important}.header-widgets{order:3!important;width:100%!important;display:flex!important;overflow-x:auto!important;gap:8px!important;margin:0!important;padding-bottom:2px!important}.header-widget{flex:0 0 170px!important;width:170px!important}.header-widget iframe{width:170px!important}
           .site-nav{padding:0 16px!important;gap:19px!important;min-height:48px!important}.site-nav a,.catalog-toggle{flex:0 0 auto!important;font-size:13px!important}.page-layout{display:block!important;padding:20px 16px 38px!important}.content{min-width:0!important}.content>p:has(img){display:flex!important;justify-content:center!important;max-width:none!important}.content>p>img{width:100%!important;height:auto!important;max-width:100%!important}
@@ -439,6 +440,11 @@
     const stage = doc.createElement('div');
     stage.className = 'product-gallery-stage';
     while (viewer.firstChild) stage.append(viewer.firstChild);
+    stage.querySelectorAll('#it_bigpic_a, a.it_tag').forEach((overlay) => {
+      overlay.removeAttribute('onclick');
+      overlay.style.setProperty('pointer-events', 'none', 'important');
+      overlay.style.setProperty('z-index', '0', 'important');
+    });
     const strip = doc.createElement('div');
     strip.className = 'product-gallery-thumbs';
     strip.setAttribute('aria-label', 'Фотографии товара');
@@ -487,8 +493,8 @@
     next.type = 'button';
     next.textContent = '›';
     next.setAttribute('aria-label', 'Следующая фотография');
-    previous.addEventListener('click', () => activate(current - 1, true));
-    next.addEventListener('click', () => activate(current + 1, true));
+    previous.addEventListener('click', (event) => { event.preventDefault(); event.stopPropagation(); activate(current - 1); previous.focus({ preventScroll: true }); });
+    next.addEventListener('click', (event) => { event.preventDefault(); event.stopPropagation(); activate(current + 1); next.focus({ preventScroll: true }); });
     nav.append(previous, next);
 
     thumbs.forEach((thumb, index) => {
@@ -520,6 +526,18 @@
       }
     });
     activate(current);
+  };
+
+  const showPreviewNotice = (doc) => {
+    if (doc.querySelector('.static-preview-notice') || doc.querySelector('.detail-page,.product-grid')) return;
+    const main = doc.querySelector('main') || doc.body;
+    if (!main) return;
+    const notice = doc.createElement('aside');
+    notice.className = 'static-preview-notice';
+    notice.setAttribute('role', 'status');
+    notice.innerHTML = '<strong>Это макет сайта</strong><span>Демонстрационная версия оригинального сайта. Сайт не принимает заказы и не продаёт товары.</span><button type="button" aria-label="Закрыть уведомление">Понятно</button>';
+    notice.querySelector('button').addEventListener('click', () => notice.remove());
+    main.prepend(notice);
   };
 
   const keepNavigationLocal = (doc) => {
@@ -559,6 +577,7 @@
     moveRatingWidgets(doc);
     placeCatalog(doc);
     buildProductGallery(doc);
+    showPreviewNotice(doc);
     keepNavigationLocal(doc);
     updateCatalogData(doc);
     doc.defaultView.send_quick_order = showQuickOrder;
