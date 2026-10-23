@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 
 const SITE = 'https://mpoint55.ru';
 const root = new URL('./', import.meta.url);
-const indexPath = new URL('index.html', root);
+const manifestPath = new URL('pages/manifest.json', root);
 const outputPath = new URL('live-data.json', root);
 
 const decodeHtml = (value) => value
@@ -16,13 +16,12 @@ const decodeHtml = (value) => value
   .replace(/\s+/g, ' ')
   .trim();
 
-const getEmbeddedPages = (index) => {
-  const open = '<script id="pages" type="application/json">';
-  const start = index.indexOf(open);
-  const end = index.indexOf('</script>', start + open.length);
-  if (start < 0 || end < 0) throw new Error('Не найден встроенный снимок страниц');
-  return JSON.parse(index.slice(start + open.length, end));
-};
+const getSnapshotPages = async (manifest) => Object.fromEntries(await Promise.all(
+  Object.entries(manifest.pages).map(async ([route, file]) => [
+    route,
+    await fs.readFile(new URL(file, root), 'utf8'),
+  ]),
+));
 
 const catalogPaths = (pages) => Object.keys(pages).filter((path) =>
   path.startsWith('/c/') && !/_\d+(?:\?|$)/.test(path),
@@ -76,13 +75,14 @@ const extractSnapshotProducts = (pages) => {
   return products;
 };
 
-const index = await fs.readFile(indexPath, 'utf8');
-const pages = getEmbeddedPages(index);
-const paths = catalogPaths(pages);
-const products = process.argv.includes('--offline') ? extractSnapshotProducts(pages) : {};
+const manifest = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+const paths = catalogPaths(manifest.pages);
+const offline = process.argv.includes('--offline');
+const pages = offline ? await getSnapshotPages(manifest) : {};
+const products = offline ? extractSnapshotProducts(pages) : {};
 let successfulPages = 0;
 
-for (const path of process.argv.includes('--offline') ? [] : paths) {
+for (const path of offline ? [] : paths) {
   try {
     Object.assign(products, extractProducts(await fetchCatalog(path)));
     successfulPages += 1;
@@ -91,7 +91,7 @@ for (const path of process.argv.includes('--offline') ? [] : paths) {
   }
 }
 
-if (!successfulPages && !process.argv.includes('--offline')) {
+if (!successfulPages && !offline) {
   throw new Error('Источник mpoint55.ru не ответил; прежние данные сохранены');
 }
 
@@ -101,4 +101,4 @@ const payload = {
   products,
 };
 await fs.writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');
-process.stdout.write(`${process.argv.includes('--offline') ? 'Подготовлен резервный снимок' : `Обновлено страниц: ${successfulPages} из ${paths.length}`}; товаров: ${Object.keys(products).length}\n`);
+process.stdout.write(`${offline ? 'Подготовлен резервный снимок' : `Обновлено страниц: ${successfulPages} из ${paths.length}`}; товаров: ${Object.keys(products).length}\n`);

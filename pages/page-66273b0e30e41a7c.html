@@ -1,0 +1,142 @@
+<html><head><base href="https://mpoint55.ru/"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="cb261f9b518bb8af835497be0a315f16" name="cmsmagazine"/>
+<link href="/style.css?ref=161208" rel="stylesheet" type="text/css"/>
+<link href="/style_cart.css" rel="stylesheet" type="text/css"/>
+
+<title>
+Всплывающие окна | MPoint55.ru</title>
+
+<meta content="Мототочка - сервис и продажа новой мототехнике в г. Омске" name="description"/>
+<meta content="Мототехника, мопеды, скутера, мотоциклы, круизеры, чопперы, турэндуро, эндуро, питбайки" name="keywords"/>
+<link href="/img/favicon.ico" rel="shortcut icon"/>
+<script src="https://mpoint55.ru/main.js?ref=161207"></script>
+<script src="https://mpoint55.ru/ks.js"></script>
+<style>
+  /* --- Стили для cookie-баннера --- */
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .cookie-banner p {
+    margin: 0;
+  }
+  .btn2 {
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  .btn-accept { background: #4CAF50; color: white; }
+  .btn-reject { background: #f44336; color: white; }
+  @media (max-width: 768px) {
+    .cookie-banner { flex-direction: column; text-align: center; }
+  }
+</style></head>
+
+<!-- Стили для cookie-баннера -->
+
+
+<body onresize="onresz();">
+
+<script>
+ var g_site='';
+</script>
+
+<div id="perron">
+ <div class="window_inner">
+
+            Просто укажите ваш номер телефона,<br/>и мы свяжемся с вами для уточнения<br/>деталей покупки
+            <br/>
+            <table border="0" cellpadding="0" cellspacing="0" style="margin: 20px 0 20px 0;">
+             <tbody><tr>
+              <td align="right" style="padding-right: 25px;" valign="middle" width="80">
+               Телефон:
+              </td>
+              <td>
+               <div class="inp_l"><div class="inp_r" style="background-position: right -90px;"><div class="inp_f"><input id="qo_phone" name="qo_phone" style="width: 150px;" type="text"/></div></div></div>
+              </td>
+             </tr>
+            </tbody></table>
+            <a class="btn_orng" href="#" onclick="send_quick_order(); return false;" style="margin-left: 50px;"><div>Отправить быстрый заказ</div></a>
+          </div>
+</div>
+
+<div id="close_btn"><a class="close_win_btn" href="#" onclick="hide_window(); return false;"><img alt="X" border="0" src="https://mpoint55.ru/pics/close_win_btn.png"/></a></div>
+
+<script>
+ top.document.getElementById("window_div").innerHTML=document.getElementById("close_btn").innerHTML+document.getElementById("perron").innerHTML; top.show_window_done();
+</script>
+
+
+<!-- Cookie баннер и отложенная загрузка счётчиков -->
+<div class="cookie-banner" id="cookieBanner" style="display: none;">
+  <p>Мы используем cookies для улучшения работы сайта. Продолжая использовать наш сайт, вы соглашаетесь с нашей <a href="/privacy.php" target="_blank">Политикой конфиденциальности</a>.</p>
+  <div>
+    <button class="btn2 btn-accept" id="acceptCookies">Принять</button>
+    <button class="btn2 btn-reject" id="rejectCookies">Отказаться</button>
+  </div>
+</div>
+
+<script>window.initCounters=function(){};
+document.addEventListener('DOMContentLoaded', function() {
+  const banner = document.getElementById('cookieBanner');
+  const acceptBtn = document.getElementById('acceptCookies');
+  const rejectBtn = document.getElementById('rejectCookies');
+  const consent = localStorage.getItem('cookieConsent');
+
+  if (consent === 'accepted') {
+    // Если согласие уже было, запускаем счётчики сразу
+    if (typeof window.initCounters === 'function') {
+      window.initCounters();
+    }
+  } else if (!consent) {
+    // Если согласия нет, показываем баннер
+    banner.style.display = 'flex';
+  }
+  // Если consent === 'rejected' — ничего не делаем (баннер не показываем, счётчики не запускаем)
+
+  acceptBtn.addEventListener('click', function() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    banner.style.display = 'none';
+    if (typeof window.initCounters === 'function') {
+      window.initCounters();
+    }
+  });
+
+  rejectBtn.addEventListener('click', function() {
+    localStorage.setItem('cookieConsent', 'rejected');
+    banner.style.display = 'none';
+  });
+});
+</script>
+
+
+ 
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const preview=window.parent.MPOINT_PREVIEW;if(!preview)return;
+ window.initCounters=()=>{};
+ window.g_site='https://mpoint55.ru';
+ window.show_item=id=>{const a=document.querySelector('[data-item-id="'+id+'"]');if(a)preview.navigate(a.dataset.path)};
+ const liveLink=()=>{const box=document.createElement('div');box.className='live-error';box.innerHTML='<p>Для отправки заявки запустите server.py. Онлайн-режим использует обработчик настоящего сайта.</p><button type="button">Закрыть</button>';const w=document.getElementById('window_div');if(w){w.replaceChildren(box);w.style.display='block';box.querySelector('button').onclick=()=>w.style.display='none'}};
+ window.load_window=()=>preview.popup();
+ document.addEventListener('click',event=>{const a=event.target.closest('a');if(!a)return;const raw=a.getAttribute('href')||'';if(raw.startsWith('#')){event.preventDefault();if(raw.length>1)document.getElementById(raw.slice(1))?.scrollIntoView({behavior:'smooth'});return}if(raw.startsWith('tel:')||raw.startsWith('mailto:')||raw.startsWith('javascript:'))return;const u=new URL(a.href,document.baseURI);if(u.hostname!=='mpoint55.ru')return;if(a.getAttribute('onclick')?.includes('showhide')){const id=a.getAttribute('onclick').match(/showhide\((\d+)/)?.[1];if(document.getElementById('lc_d'+id))return}event.preventDefault();event.stopImmediatePropagation();preview.navigate(u.pathname+u.search)},true);
+ const form=document.getElementById('filter_form');if(form){window.refilter=()=>preview.filter(new FormData(form));form.addEventListener('submit',event=>{event.preventDefault();preview.filter(new FormData(form))})}
+ const search=document.getElementById('fsearch');if(search)search.addEventListener('submit',event=>{event.preventDefault();preview.search(document.getElementById('stext').value)});
+ window.send_quick_order=liveLink;
+});
+</script>
+</body></html>
