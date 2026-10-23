@@ -159,21 +159,15 @@
     currentPath = route;
     history.pushState({ path: route }, '', `#${encodeURIComponent(route)}`);
     if (window.MPOINT_CATALOG?.filter) return window.MPOINT_CATALOG.filter(doc, data, {
-      sourceFallback: (_result, request) => {
-        const form = doc.createElement('form');
-        form.method = 'post';
-        form.action = request.url;
-        form.target = '_top';
-        form.hidden = true;
-        for (const [name, value] of request.init.body) {
-          const input = doc.createElement('input');
-          input.type = 'hidden';
-          input.name = name;
-          input.value = value;
-          form.append(input);
-        }
-        doc.body.append(form);
-        form.submit();
+      // GitHub Pages cannot submit the original PHP filter form. Keep the
+      // current snapshot in place and report unsupported fields locally.
+      sourceFallback: (result) => {
+        const note = doc.querySelector('.catalog-filter-note') || doc.createElement('p');
+        note.className = 'catalog-filter-note';
+        note.textContent = result.unsupported.length
+          ? 'Для этого фильтра в сохранённом каталоге нет дополнительных данных.'
+          : '';
+        if (!note.parentNode) doc.querySelector('#filter_form')?.append(note);
       },
     });
     const cards = [...doc.querySelectorAll('.product-card')];
