@@ -65,7 +65,10 @@
       const response = await fetch(absolute(file));
       if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
       let content = await response.text();
-      for (const [token, value] of Object.entries(shared)) content = content.split(token).join(value);
+      for (const [token, value] of Object.entries(shared)) {
+        const placeholder = token.match(/^__[A-Z_]+__/)?.[0] || token;
+        content = content.split(placeholder).join(value);
+      }
       for (const [url, fileName] of Object.entries(manifest.images)) {
         content = content.split(url).join(absolute(fileName));
       }

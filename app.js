@@ -581,6 +581,13 @@
     moveRatingWidgets(doc);
     placeCatalog(doc);
     buildProductGallery(doc);
+    // Legacy height attributes constrain block/grid rows to the old 340px viewer.
+    // The description then overflows that row without increasing the page height.
+    doc.querySelectorAll('.detail-page .it_inn_table, .detail-page .it_inn_table > tbody, .detail-page .it_inn_table > tbody > tr, .detail-page .it_inn_table > tbody > tr > td').forEach((element) => {
+      element.removeAttribute('height');
+      element.style.setProperty('height', 'auto', 'important');
+      element.style.setProperty('min-height', '0', 'important');
+    });
     showPreviewNotice(doc);
     keepNavigationLocal(doc);
     updateCatalogData(doc);
