@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:35:34.768Z",
+  "updatedAt": "2026-10-25T16:26:29.805Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -8962,6 +8962,10 @@
       "title": "Matador 205/55 R16 91H MP93 Nordicca",
       "price": "6 540 ₽"
     },
+    "/c/zimnie/fortune_205_60_r16_96t_polaro_ice_347916": {
+      "title": "Fortune 205/60 R16 96T Polaro Ice",
+      "price": "6 550 ₽"
+    },
     "/c/zimnie/gislaved_195_65_r15_95t_nord_frost_200_347366": {
       "title": "Gislaved 195/65 R15 95T Nord Frost 200",
       "price": "6 550 ₽"
@@ -11429,10 +11433,6 @@
     "/c/zimnie/ikon_tyres_nokian_tyres_225_55_r16_99t_character_ice_7_334471": {
       "title": "Ikon Tyres (Nokian Tyres) 225/55 R16 99T Character Ice 7",
       "price": "11 110 ₽"
-    },
-    "/c/zimnie/ikon_tyres_nokian_tyres_225_65_r17_106t_character_ice_7_suv_332545": {
-      "title": "Ikon Tyres (Nokian Tyres) 225/65 R17 106T Character Ice 7 SUV",
-      "price": "11 120 ₽"
     },
     "/c/zimnie/viatti_225_70_r15c_vettore_inverno_v524_305697": {
       "title": "Viatti 225/70 R15C Vettore Inverno V524",
