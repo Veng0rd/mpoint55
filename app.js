@@ -449,6 +449,9 @@
     const images = thumbs.map((thumb) => thumb.href);
     image.decoding = 'async';
     thumbs.forEach((thumb) => {
+      // The legacy active-thumbnail class fades its image to 30% opacity.
+      // Selection is now indicated by aria-current and the gallery border.
+      thumb.querySelector('.it_ppic_a')?.classList.replace('it_ppic_a', 'it_ppic');
       const preview = thumb.querySelector('img');
       if (preview) {
         preview.loading = 'lazy';
