@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T06:21:05.738Z",
+  "updatedAt": "2026-10-26T14:18:57.788Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -1002,10 +1002,6 @@
       "title": "Аккумулятор 65 (670) Аком EFB (+ -)-прям",
       "price": "9 670 ₽"
     },
-    "/c/akkumulyatory/akkumulyator_65_670_akom_efb_-_-obr_343084": {
-      "title": "Аккумулятор 65 (670) Аком EFB (- +)-обр",
-      "price": "9 670 ₽"
-    },
     "/c/akkumulyatory/akkumulyator_90_720_tyumen_-_-obr_341690": {
       "title": "Аккумулятор 90 (720) Тюмень (- +)-обр",
       "price": "9 720 ₽"
@@ -1637,10 +1633,6 @@
     "/c/akkumulyatory/akkumulyator_85_850_delkor_bci_-_-pryam_347322": {
       "title": "Аккумулятор 85 (850) DELKOR BCI (+ -)-прям",
       "price": "22 170 ₽"
-    },
-    "/c/akkumulyatory/akkumulyator_220_1450_tyumen_premium_-_-pryam_341635": {
-      "title": "Аккумулятор 220 (1450) Тюмень Премиум (+ -)-прям",
-      "price": "22 280 ₽"
     },
     "/c/akkumulyatory/akkumulyator_210_1420_tyumen_premium_-_-pryam_341633": {
       "title": "Аккумулятор 210 (1420) Тюмень Премиум (+ -)-прям",
@@ -7822,6 +7814,10 @@
       "title": "Triangle 185/60 R14 82T SnowLion TR777",
       "price": "4 520 ₽"
     },
+    "/c/zimnie/tunga_185_65_r14_86q_nordway_3_350968": {
+      "title": "Tunga 185/65 R14 86Q Nordway 3",
+      "price": "4 540 ₽"
+    },
     "/c/zimnie/roadx_195_65_r15_91t_rxfrost_arctic_350864": {
       "title": "RoadX 195/65 R15 91T RXFrost Arctic",
       "price": "4 550 ₽"
@@ -7840,10 +7836,6 @@
     },
     "/c/zimnie/viatti_185_65_r14_86t_brina_nordico_v521_108671": {
       "title": "Viatti 185/65 R14 86T Brina Nordico V521",
-      "price": "4 550 ₽"
-    },
-    "/c/zimnie/a_shina_185_65_r14_86q_tunga_nordway_3_350968": {
-      "title": "А/шина 185/65 R14 86Q TUNGA Nordway 3",
       "price": "4 550 ₽"
     },
     "/c/zimnie/viatti_175_65_r14_82t_brina_nordico_v522_108999": {
@@ -7954,8 +7946,8 @@
       "title": "Nortec 185/75 R16C 104/102R LT-610 б/к",
       "price": "4 800 ₽"
     },
-    "/c/zimnie/a_shina_185_70_r14_92q_tunga_nordway_3_350970": {
-      "title": "А/шина 185/70 R14 92Q TUNGA Nordway 3",
+    "/c/zimnie/tunga_185_70_r14_92q_nordway_3_350970": {
+      "title": "Tunga 185/70 R14 92Q Nordway 3",
       "price": "4 810 ₽"
     },
     "/c/zimnie/sailun_185_60_r15_88h_ice_blazer_arctic_303294": {
@@ -8230,8 +8222,8 @@
       "title": "Cordiant 185/60 R15 88T Winter Drive 2",
       "price": "5 390 ₽"
     },
-    "/c/zimnie/a_shina_185_70_r14_90t_landspider_arctictraxx_tl_bsw_xl_350969": {
-      "title": "А/шина 185/70 R14 90T LANDSPIDER Arctictraxx TL BSW XL",
+    "/c/zimnie/landspider_185_70_r14_90t_arctictraxx_350969": {
+      "title": "Landspider 185/70 R14 90T Arctictraxx",
       "price": "5 390 ₽"
     },
     "/c/zimnie/cordiant_195_65_r15_95t_winter_drive_2_339350": {
@@ -10342,8 +10334,8 @@
       "title": "Sonix 255/50 R20 109T Winter X Pro Studs 69",
       "price": "8 930 ₽"
     },
-    "/c/zimnie/a_shina_235_45_r18_98t_fortune_polaro_ice_350978": {
-      "title": "А/шина 235/45 R18 98T FORTUNE Polaro Ice",
+    "/c/zimnie/fortune_235_45_r18_98t_polaro_ice_350978": {
+      "title": "Fortune 235/45 R18 98T Polaro Ice",
       "price": "8 950 ₽"
     },
     "/c/zimnie/roadx_235_70_r16_106t_rxfrost_wh12_350824": {
@@ -11194,10 +11186,6 @@
       "title": "Torero 215/70 R16 100T MP30",
       "price": "10 720 ₽"
     },
-    "/c/zimnie/a_shina_195_75_r16c_107_105r_ikon_character_ice_c2_350971": {
-      "title": "А/шина 195/75 R16C 107/105R IKON Character Ice C2",
-      "price": "10 750 ₽"
-    },
     "/c/zimnie/tracmax_265_50_r20_111t_x-privilo_s360_350820": {
       "title": "Tracmax 265/50 R20 111T X-Privilo S360",
       "price": "10 760 ₽"
@@ -11256,10 +11244,6 @@
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_225_60_r16_102t_character_ice_7_334259": {
       "title": "Ikon Tyres (Nokian Tyres) 225/60 R16 102T Character Ice 7",
-      "price": "10 900 ₽"
-    },
-    "/c/zimnie/a_shina_215_70_r16_100t_ikon_character_ice_7_suv_350972": {
-      "title": "А/шина 215/70 R16 100T IKON Character Ice 7 SUV",
       "price": "10 900 ₽"
     },
     "/c/zimnie/cordiant_225_70_r15c_112_110q_business_cw-2_335387": {
@@ -11362,12 +11346,12 @@
       "title": "Laufenn 265/65 R17 116T i Fit Ice LW71",
       "price": "11 030 ₽"
     },
-    "/c/zimnie/triangle_245_45_r20_103v_snowlink_pl02_327134": {
-      "title": "Triangle 245/45 R20 103V SnowLink PL02",
+    "/c/zimnie/landspider_265_65_r17_112t_arctictraxx_350975": {
+      "title": "Landspider 265/65 R17 112T Arctictraxx",
       "price": "11 040 ₽"
     },
-    "/c/zimnie/a_shina_265_65_r17_112t_landspider_arctictraxx_tl_bsw_350975": {
-      "title": "А/шина 265/65 R17 112T LANDSPIDER Arctictraxx TL BSW",
+    "/c/zimnie/triangle_245_45_r20_103v_snowlink_pl02_327134": {
+      "title": "Triangle 245/45 R20 103V SnowLink PL02",
       "price": "11 040 ₽"
     },
     "/c/zimnie/aplus_265_45_r21_108t_a703_328269": {
@@ -11506,6 +11490,10 @@
       "title": "Gislaved 225/55 R17 101T ArcticControl",
       "price": "11 460 ₽"
     },
+    "/c/zimnie/ikon_tyres_nokian_tyres_195_75_r16c_107_105r_character_ice_c2_350971": {
+      "title": "Ikon Tyres (Nokian Tyres) 195/75 R16C 107/105R Character Ice C2",
+      "price": "11 500 ₽"
+    },
     "/c/zimnie/sailun_265_50_r19_110t_ice_blazer_wst3_125239": {
       "title": "Sailun 265/50 R19 110T Ice Blazer WST3",
       "price": "11 510 ₽"
@@ -11586,6 +11574,10 @@
       "title": "Cordiant 235/60 R18 107T Snow Cross 2",
       "price": "11 660 ₽"
     },
+    "/c/zimnie/ikon_tyres_nokian_tyres_215_70_r16_100t_ikon_character_ice_7_suv_350972": {
+      "title": "Ikon Tyres (Nokian Tyres) 215/70 R16 100T IKON Character Ice 7 SUV",
+      "price": "11 660 ₽"
+    },
     "/c/zimnie/gislaved_235_55_r17_103t_soft_frost_200_suv_91888": {
       "title": "Gislaved 235/55 R17 103T Soft Frost 200 SUV",
       "price": "11 670 ₽"
@@ -11662,6 +11654,10 @@
       "title": "Ikon Tyres (Nokian Tyres) 215/45 R17 91T Character Ice 7",
       "price": "11 850 ₽"
     },
+    "/c/zimnie/roadx_255_50_r20_109t_rxfrost_wh12_350979": {
+      "title": "RoadX 255/50 R20 109T RXFrost WH12",
+      "price": "11 850 ₽"
+    },
     "/c/zimnie/sailun_265_45_r21_104t_ice_blazer_arctic_evo_326767": {
       "title": "Sailun 265/45 R21 104T Ice Blazer Arctic Evo",
       "price": "11 850 ₽"
@@ -11672,10 +11668,6 @@
     },
     "/c/zimnie/zmax_265_50_r20_107t_winternova_stud_ii_336203": {
       "title": "Zmax 265/50 R20 107T Winternova Stud II",
-      "price": "11 850 ₽"
-    },
-    "/c/zimnie/a_shina_255_50_r20_109t_sailun_roadx_rxfrost_wh12_xl_350979": {
-      "title": "А/шина 255/50 R20 109T SAILUN ROADX RXFrost WH12 XL",
       "price": "11 850 ₽"
     },
     "/c/zimnie/gislaved_245_70_r16_111t_soft_frost_200_suv_73430": {
@@ -12050,16 +12042,16 @@
       "title": "Ikon Tyres (Nokian Tyres) 225/75 R16 108T Character Ice 7 SUV",
       "price": "12 850 ₽"
     },
+    "/c/zimnie/gislaved_265_65_r17_116t_nord_frost_200_suv_350976": {
+      "title": "Gislaved 265/65 R17 116T Nord Frost 200 SUV",
+      "price": "12 860 ₽"
+    },
     "/c/zimnie/hankook_225_70_r15c_112_110r_rw15_326120": {
       "title": "Hankook 225/70 R15C 112/110R RW15",
       "price": "12 860 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_225_50_r17_98r_autograph_snow_3_323002": {
       "title": "Ikon Tyres (Nokian Tyres) 225/50 R17 98R Autograph Snow 3",
-      "price": "12 860 ₽"
-    },
-    "/c/zimnie/a_shina_265_65_r17_116t_gislaved_nord_frost_200_suv_xl_350976": {
-      "title": "А/шина 265/65 R17 116T GISLAVED Nord Frost 200 SUV XL",
       "price": "12 860 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_215_65_r16c_109_107r_character_ice_c2_348963": {
@@ -12189,10 +12181,6 @@
     "/c/zimnie/hankook_235_65_r18_106t_rw10_325685": {
       "title": "Hankook 235/65 R18 106T RW10",
       "price": "13 240 ₽"
-    },
-    "/c/zimnie/a_shina_245_70_r16_111t_ikon_character_ice_7_suv_350974": {
-      "title": "А/шина 245/70 R16 111T IKON Character Ice 7 SUV",
-      "price": "13 250 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_215_60_r16_99t_autograph_ice_9_325134": {
       "title": "Ikon Tyres (Nokian Tyres) 215/60 R16 99T Autograph Ice 9",
@@ -12468,6 +12456,10 @@
     },
     "/c/zimnie/cordiant_235_50_r19_103t_winter_drive_2_suv_349826": {
       "title": "Cordiant 235/50 R19 103T Winter Drive 2 SUV",
+      "price": "14 180 ₽"
+    },
+    "/c/zimnie/ikon_tyres_nokian_tyres_245_70_r16_111t_character_ice_7_suv_350974": {
+      "title": "Ikon Tyres (Nokian Tyres) 245/70 R16 111T Character Ice 7 SUV",
       "price": "14 180 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_255_70_r15_108t_character_ice_8_suv_329881": {
@@ -12930,12 +12922,12 @@
       "title": "Yokohama 255/55 R18 109T IceGuard IG65",
       "price": "15 840 ₽"
     },
-    "/c/zimnie/nokian_ikon_tyres_215_40_r17_87t_hakkapeliitta_9_114242": {
-      "title": "Nokian (Ikon Tyres) 215/40 R17 87T Hakkapeliitta 9",
+    "/c/zimnie/gislaved_235_45_r18_98t_nord_frost_200_suv_350977": {
+      "title": "Gislaved 235/45 R18 98T Nord Frost 200 SUV",
       "price": "15 890 ₽"
     },
-    "/c/zimnie/a_shina_235_45_r18_98t_gislaved_nord_frost_200_suv_xl_350977": {
-      "title": "А/шина 235/45 R18 98T GISLAVED Nord Frost 200 SUV XL",
+    "/c/zimnie/nokian_ikon_tyres_215_40_r17_87t_hakkapeliitta_9_114242": {
+      "title": "Nokian (Ikon Tyres) 215/40 R17 87T Hakkapeliitta 9",
       "price": "15 890 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_235_55_r19_105r_autograph_snow_3_suv_322162": {
