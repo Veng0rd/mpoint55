@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:32:53.948Z",
+  "updatedAt": "2026-10-29T16:10:27.122Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -8226,10 +8226,6 @@
       "title": "Viatti 185/60 R15 88T Nordico 2 V528",
       "price": "5 240 ₽"
     },
-    "/c/zimnie/fortune_185_65_r15_92t_polaro_ice_347906": {
-      "title": "Fortune 185/65 R15 92T Polaro Ice",
-      "price": "5 250 ₽"
-    },
     "/c/zimnie/hankook_185_65_r15_92t_winter_i_cept_iz3_w636_334529": {
       "title": "Hankook 185/65 R15 92T Winter I*Cept IZ3 W636",
       "price": "5 250 ₽"
@@ -8336,6 +8332,10 @@
     },
     "/c/zimnie/cordiant_175_65_r14_86t_snow_cross_2_84885": {
       "title": "Cordiant 175/65 R14 86T Snow Cross 2",
+      "price": "5 500 ₽"
+    },
+    "/c/zimnie/fortune_185_65_r15_92t_polaro_ice_347906": {
+      "title": "Fortune 185/65 R15 92T Polaro Ice",
       "price": "5 500 ₽"
     },
     "/c/zimnie/cordiant_185_60_r14_82t_sno-max_7000_339370": {
@@ -8458,10 +8458,6 @@
       "title": "Cordiant 185/60 R15 84T Snow Cross",
       "price": "5 650 ₽"
     },
-    "/c/zimnie/fortune_195_65_r15_95t_polaro_ice_347909": {
-      "title": "Fortune 195/65 R15 95T Polaro Ice",
-      "price": "5 650 ₽"
-    },
     "/c/zimnie/tunga_195_55_r16_91q_nordway_3_347429": {
       "title": "Tunga 195/55 R16 91Q Nordway 3",
       "price": "5 650 ₽"
@@ -8526,8 +8522,8 @@
       "title": "Triangle 195/65 R15 91T SnowLion TR777",
       "price": "5 700 ₽"
     },
-    "/c/zimnie/triangle_205_60_r16_96r_pl01_351036": {
-      "title": "Triangle 205/60 R16 96R PL01",
+    "/c/zimnie/triangle_205_60_r16_96r_snowlink_pl01_351036": {
+      "title": "Triangle 205/60 R16 96R SnowLink PL01",
       "price": "5 700 ₽"
     },
     "/c/zimnie/viatti_195_65_r15_95t_nordico_2_v528_334009": {
@@ -8673,6 +8669,10 @@
     "/c/zimnie/gislaved_175_70_r14_88t_nord_frost_200_74465": {
       "title": "Gislaved 175/70 R14 88T Nord Frost 200",
       "price": "5 890 ₽"
+    },
+    "/c/zimnie/fortune_195_65_r15_95t_polaro_ice_347909": {
+      "title": "Fortune 195/65 R15 95T Polaro Ice",
+      "price": "5 900 ₽"
     },
     "/c/zimnie/gislaved_185_60_r14_82t_spikecontrol_334027": {
       "title": "Gislaved 185/60 R14 82T SpikeControl",
@@ -10458,10 +10458,6 @@
       "title": "Viatti 215/50 R17 95T Nordico 2 V-528",
       "price": "8 780 ₽"
     },
-    "/c/zimnie/triangle_215_60_r17_100t_icelynx_ti501_347925": {
-      "title": "Triangle 215/60 R17 100T IcelynX TI501",
-      "price": "8 800 ₽"
-    },
     "/c/zimnie/yokohama_205_55_r16_94t_iceguard_ig65_74579": {
       "title": "Yokohama 205/55 R16 94T IceGuard IG65",
       "price": "8 800 ₽"
@@ -10602,8 +10598,8 @@
       "title": "Torero 215/60 R16 99T MP30",
       "price": "9 060 ₽"
     },
-    "/c/zimnie/triangle_245_55_r19_107v_pl02_351060": {
-      "title": "Triangle 245/55 R19 107V PL02",
+    "/c/zimnie/triangle_245_55_r19_107v_snowlink_pl02_351060": {
+      "title": "Triangle 245/55 R19 107V SnowLink PL02",
       "price": "9 060 ₽"
     },
     "/c/zimnie/gislaved_215_60_r16_99t_arctic_control_347136": {
@@ -10732,6 +10728,10 @@
     },
     "/c/zimnie/gislaved_205_65_r16_99t_spikecontrol_334532": {
       "title": "Gislaved 205/65 R16 99T SpikeControl",
+      "price": "9 300 ₽"
+    },
+    "/c/zimnie/triangle_215_60_r17_100t_icelynx_ti501_347925": {
+      "title": "Triangle 215/60 R17 100T IcelynX TI501",
       "price": "9 300 ₽"
     },
     "/c/zimnie/doublestar_265_65_r17_112s_dw02_113261": {
@@ -12048,10 +12048,6 @@
     },
     "/c/zimnie/kama_225_75_r16c_121_120r_nk-530_ice_trace_351049": {
       "title": "Кама 225/75 R16C 121/120R Нк-530 Ice Trace",
-      "price": "12 100 ₽"
-    },
-    "/c/zimnie/shina_285_60r18_nordman_8_suv_116t_ship_351068": {
-      "title": "Шина 285/60R18 Nordman 8 SUV 116T шип !",
       "price": "12 100 ₽"
     },
     "/c/zimnie/cordiant_265_55_r19_113t_winter_drive_2_suv_349832": {
