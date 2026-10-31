@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:47:04.870Z",
+  "updatedAt": "2026-10-31T12:37:18.172Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -7574,6 +7574,10 @@
       "title": "Белшина 185/60 R15 Бел-367",
       "price": "3 790 ₽"
     },
+    "/c/zimnie/tunga_185_60_r14_82q_nordway_2_351028": {
+      "title": "Tunga 185/60 R14 82Q Nordway 2",
+      "price": "3 840 ₽"
+    },
     "/c/zimnie/belshina_185_60_r15_84t_bel-327_312270": {
       "title": "Белшина 185/60 R15 84T Бел-327",
       "price": "3 840 ₽"
@@ -9370,10 +9374,6 @@
       "title": "Ikon Tyres (Nokian Tyres) 155/65 R14 75T Character Ice 8",
       "price": "7 100 ₽"
     },
-    "/c/zimnie/a_shina_195_55_r15_89t_ikon_character_ice_5_xl_351103": {
-      "title": "А/шина 195/55 R15 89T IKON Character Ice 5 XL",
-      "price": "7 100 ₽"
-    },
     "/c/zimnie/cordiant_195_55_r15_89t_snow_cross_2_110156": {
       "title": "Cordiant 195/55 R15 89T Snow Cross 2",
       "price": "7 130 ₽"
@@ -9673,6 +9673,10 @@
     "/c/zimnie/ovation_205_65_r16c_105_107t_wv-06_ecovision_8pr_339795": {
       "title": "Ovation 205/65 R16C 105/107T WV-06 Ecovision 8PR",
       "price": "7 590 ₽"
+    },
+    "/c/zimnie/ikon_tyres_nokian_tyres_195_55_r15_89t_character_ice_5_351103": {
+      "title": "Ikon Tyres (Nokian Tyres) 195/55 R15 89T Character Ice 5",
+      "price": "7 600 ₽"
     },
     "/c/zimnie/doublestar_245_65_r17_107s_dw02_349406": {
       "title": "Doublestar 245/65 R17 107S DW02",
@@ -13958,12 +13962,12 @@
       "title": "Hankook 265/50 R20 111T Winter I*Pike X W429A",
       "price": "19 420 ₽"
     },
-    "/c/zimnie/yokohama_235_45_r18_98t_iceguard_ig65_124609": {
-      "title": "Yokohama 235/45 R18 98T IceGuard IG65",
+    "/c/zimnie/tracmax_285_40_r22_110h_x-privilo_s500_351102": {
+      "title": "Tracmax 285/40 R22 110H X-Privilo S500",
       "price": "19 460 ₽"
     },
-    "/c/zimnie/shina_285_40r22_tracmax_x-privilo_s500_110h_ship_351102": {
-      "title": "Шина 285/40R22 Tracmax X-Privilo S500 110H шип",
+    "/c/zimnie/yokohama_235_45_r18_98t_iceguard_ig65_124609": {
+      "title": "Yokohama 235/45 R18 98T IceGuard IG65",
       "price": "19 460 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_245_45_r18_100t_autograph_snow_5_338764": {
