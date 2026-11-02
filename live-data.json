@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T06:11:32.861Z",
+  "updatedAt": "2026-11-02T16:00:22.728Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -1302,8 +1302,8 @@
       "title": "Аккумулятор 65 (650) Topla Asia Top (- +)-обр",
       "price": "12 440 ₽"
     },
-    "/c/akkumulyatory/akkumulyator_100_830_mutlu_sfb_-_-obr_340266": {
-      "title": "Аккумулятор 100 (830) Mutlu SFB (- +)-обр",
+    "/c/akkumulyatory/akkumulyator_100_830_mutlu_-_-obr_340266": {
+      "title": "Аккумулятор 100 (830) Mutlu (- +)-обр",
       "price": "12 460 ₽"
     },
     "/c/akkumulyatory/akkumulyator_100_860_d31r_forse_asia_-_-pryam_313718": {
@@ -8636,6 +8636,10 @@
     },
     "/c/zimnie/hankook_185_65_r14_90t_winter_i_cept_iz2_w616_84203": {
       "title": "Hankook 185/65 R14 90T Winter i*cept iZ2 W616",
+      "price": "5 900 ₽"
+    },
+    "/c/zimnie/hankook_195_65_r15_95t_winter_i_cept_iz3_w636_327549": {
+      "title": "Hankook 195/65 R15 95T Winter I*Cept IZ3 W636",
       "price": "5 900 ₽"
     },
     "/c/zimnie/torero_185_65_r14_90t_mp30_324134": {
