@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T06:52:00.914Z",
+  "updatedAt": "2026-11-05T15:30:06.083Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -522,6 +522,10 @@
       "title": "Аккумулятор 42 (350) (44B19L) President VANGUARD (- +)-обр",
       "price": "5 670 ₽"
     },
+    "/c/akkumulyatory/akkumulyator_50_440_tyumen_premium_kubik_-_-obr_342579": {
+      "title": "Аккумулятор 50 (440) Тюмень Премиум (кубик) (- +)-обр",
+      "price": "5 690 ₽"
+    },
     "/c/akkumulyatory/akkumulyator_50_440_tyumen_premium_kubik_-_-pryam_341638": {
       "title": "Аккумулятор 50 (440) Тюмень Премиум (кубик) (+ -)-прям",
       "price": "5 770 ₽"
@@ -1022,7 +1026,7 @@
       "title": "Аккумулятор 73 (630) Topla Energy (низкий) (- +)-обр",
       "price": "9 650 ₽"
     },
-    "/c/akkumulyatory/akkumulyator_90_720_tyumen_-_-obr_341690": {
+    "/c/akkumulyatory/akkumulyator_90_720_tyumen_-_-obr_341691": {
       "title": "Аккумулятор 90 (720) Тюмень (- +)-обр",
       "price": "9 720 ₽"
     },
