@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T08:02:02.720Z",
+  "updatedAt": "2026-11-13T16:28:20.337Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -10,9 +10,9 @@
       "title": "Мотоцикл Cobra SRM 250 красный",
       "price": "143 900 ₽"
     },
-    "/c/motocikly/motocikl_regulmoto_grizzly_pr300_cherno_zheltyy_346862": {
-      "title": "Мотоцикл Regulmoto Grizzly PR300 черно/желтый",
-      "price": "149 000 ₽"
+    "/c/motocikly/motocikl_regulmoto_grizzly_pr300pro_300cc_chernyy_seryy_351370": {
+      "title": "Мотоцикл Regulmoto Grizzly PR300PRO (300cc) черный/серый",
+      "price": "162 000 ₽"
     },
     "/c/motocikly/motocikl_rockot_r5x_rampage_300_ss_344668": {
       "title": "Мотоцикл ROCKOT R5X Rampage (300 сс)",
@@ -69,6 +69,10 @@
     "/c/motocikly/motocikl_vmc_cruiser_500_chernyy_349492": {
       "title": "Мотоцикл VMC Cruiser 500 черный",
       "price": "570 000 ₽"
+    },
+    "/c/motocikly/motocikl_regulmoto_arthur_lb700_700cc_351369": {
+      "title": "Мотоцикл Regulmoto ARTHUR LB700 (700cc)",
+      "price": "625 000 ₽"
     },
     "/c/motocikly/motocikl_vmc_cruiser_650_650_ss_chernyy_329421": {
       "title": "Мотоцикл VMC Cruiser 650 (650 сс) черный",
@@ -200,6 +204,10 @@
     },
     "/c/motocikly/motocikl_regulmoto_duke_pro_300_cc_341128": {
       "title": "Мотоцикл Regulmoto DUKE PRO (300 cc)",
+      "price": "Уточняйте цену"
+    },
+    "/c/motocikly/motocikl_regulmoto_grizzly_pr300_cherno_zheltyy_346862": {
+      "title": "Мотоцикл Regulmoto Grizzly PR300 черно/желтый",
       "price": "Уточняйте цену"
     },
     "/c/motocikly/motocikl_regulmoto_nibbler_4v_300ss_seryy_zheltyy_334465": {
@@ -7990,6 +7998,10 @@
       "title": "Ikon Tyres (Nokian Tyres) 155/70 R13 75R Nordman RS2",
       "price": "5 010 ₽"
     },
+    "/c/zimnie/roadx_195_55_r16_87h_rxfrost_arctic_351346": {
+      "title": "Roadx 195/55 R16 87H RXFrost Arctic",
+      "price": "5 010 ₽"
+    },
     "/c/zimnie/sailun_195_60_r15_88t_ice_blazer_arctic_303297": {
       "title": "Sailun 195/60 R15 88T Ice Blazer Arctic",
       "price": "5 010 ₽"
@@ -8004,10 +8016,6 @@
     },
     "/c/zimnie/triangle_185_60_r15_88r_snowlink_pl01_324853": {
       "title": "Triangle 185/60 R15 88R SnowLink PL01",
-      "price": "5 010 ₽"
-    },
-    "/c/zimnie/a_shina_195_55_r16_87h_sailun_roadx_rxfrost_arctic_351346": {
-      "title": "А/шина 195/55 R16 87H SAILUN ROADX RXFrost Arctic",
       "price": "5 010 ₽"
     },
     "/c/zimnie/roadx_185_60_r15_84t_rxfrost_wh12_347812": {
@@ -8762,8 +8770,8 @@
       "title": "Torero 185/70 R14 92T MP30",
       "price": "6 270 ₽"
     },
-    "/c/zimnie/shina_185_70r14_yokohama_ig70_88q_351343": {
-      "title": "Шина 185/70R14 Yokohama IG70 88Q",
+    "/c/zimnie/yokohama_185_70_r14_88q_iceguard_ig70_351343": {
+      "title": "Yokohama 185/70 R14 88Q IceGuard IG70",
       "price": "6 270 ₽"
     },
     "/c/zimnie/cordiant_205_55_r16_94t_winter_drive_2_335382": {
@@ -10762,8 +10770,8 @@
       "title": "Sailun 235/70 R16 106S Ice Blazer Arctic SUV",
       "price": "9 670 ₽"
     },
-    "/c/zimnie/shina_235_65r18_triangle_pl01_110t_351344": {
-      "title": "Шина 235/65R18 Triangle PL01 110T",
+    "/c/zimnie/triangle_235_65_r18_110t_pl01_351344": {
+      "title": "Triangle 235/65 R18 110T PL01",
       "price": "9 670 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_215_60_r16_99t_character_ice_7_332737": {
@@ -12878,8 +12886,8 @@
       "title": "Pirelli 235/65 R18 110T Ice Zero FR",
       "price": "15 040 ₽"
     },
-    "/c/zimnie/shina_255_45r20_sailun_ice_blazer_wst3_105t_ship_351345": {
-      "title": "Шина 255/45R20 Sailun Ice Blazer WST3 105T шип",
+    "/c/zimnie/sailun_255_45_r20_105t_ice_blazer_wst3_351345": {
+      "title": "Sailun 255/45 R20 105T Ice Blazer WST3",
       "price": "15 050 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_225_55_r17_101r_autograph_snow_5_347491": {
@@ -15130,8 +15138,8 @@
       "title": "Sailun 165/70 R13 79T Atrezzo Eco",
       "price": "3 280 ₽"
     },
-    "/c/letnie/shina_185_60r14_tracmax_x-privilo_tx5_82h_351349": {
-      "title": "Шина 185/60R14 Tracmax X-Privilo TX5 82H",
+    "/c/letnie/tracmax_185_60_r14_82h_x-privilo_tx5_351349": {
+      "title": "Tracmax 185/60 R14 82H X-Privilo TX5",
       "price": "3 280 ₽"
     },
     "/c/letnie/aplus_175_65_r14_82h_a609_312730": {
@@ -15162,8 +15170,8 @@
       "title": "Tracmax 175/70 R13 82T X-Privilo TX5",
       "price": "3 340 ₽"
     },
-    "/c/letnie/shina_175_70r14_tracmax_x-privilo_tx5_84t_351348": {
-      "title": "Шина 175/70R14 Tracmax X-Privilo TX5 84T",
+    "/c/letnie/tracmax_175_70_r14_84t_x-privilo_tx5_351348": {
+      "title": "Tracmax 175/70 R14 84T X-Privilo TX5",
       "price": "3 340 ₽"
     },
     "/c/letnie/bars_185_55_r15_82v_uz200_328123": {
@@ -15278,8 +15286,8 @@
       "title": "Delmax 195/55 R15 85V Ultimapro Up1",
       "price": "3 600 ₽"
     },
-    "/c/letnie/shina_175_70r13_triangle_te301_protract_82h_351347": {
-      "title": "Шина 175/70R13 Triangle TE301 Protract 82H",
+    "/c/letnie/triangle_175_70_r13_82h_te301_protract_351347": {
+      "title": "Triangle 175/70 R13 82H TE301 Protract",
       "price": "3 600 ₽"
     },
     "/c/letnie/attar_195_60_r15_92v_s01_331500": {
@@ -15346,12 +15354,12 @@
       "title": "LingLong 185/65 R14 86T Green-Max Ecotouring",
       "price": "3 700 ₽"
     },
-    "/c/letnie/viatti_185_65_r15_92v_strada_2_v-134_305239": {
-      "title": "Viatti 185/65 R15 92V Strada 2 V-134",
+    "/c/letnie/tracmax_185_60_r15_88h_x-privilo_tx5_351350": {
+      "title": "Tracmax 185/60 R15 88H X-Privilo TX5",
       "price": "3 700 ₽"
     },
-    "/c/letnie/shina_185_60r15_tracmax_x-privilo_tx5_88h_351350": {
-      "title": "Шина 185/60R15 Tracmax X-Privilo TX5 88H",
+    "/c/letnie/viatti_185_65_r15_92v_strada_2_v-134_305239": {
+      "title": "Viatti 185/65 R15 92V Strada 2 V-134",
       "price": "3 700 ₽"
     },
     "/c/letnie/aplus_195_50_r15_82v_a609_305073": {
@@ -15446,8 +15454,8 @@
       "title": "Roadcruza 185/65 R14 86H RA510",
       "price": "3 900 ₽"
     },
-    "/c/letnie/shina_195_60r15_tracmax_x-privilo_tx5_88h_351352": {
-      "title": "Шина 195/60R15 Tracmax X-Privilo TX5 88H",
+    "/c/letnie/tracmax_195_60_r15_88h_x-privilo_tx5_351352": {
+      "title": "Tracmax 195/60 R15 88H X-Privilo TX5",
       "price": "3 900 ₽"
     },
     "/c/letnie/goodride_175_65_r14_82h_zupereco_z-107_334308": {
@@ -15526,12 +15534,12 @@
       "title": "Viatti 185/60 R14 86H Strada 2 V-134",
       "price": "4 030 ₽"
     },
-    "/c/letnie/shina_205_55r16_leao_nova-force_hp100_91v_351355": {
-      "title": "Шина 205/55R16 Leao Nova-Force HP100 91V",
+    "/c/letnie/leao_205_55_r16_91v_novaforce_hp100_351355": {
+      "title": "Leao 205/55 R16 91V NovaForce HP100",
       "price": "4 050 ₽"
     },
-    "/c/letnie/shina_205_55r16_tracmax_x-privilo_tx5_91v_351357": {
-      "title": "Шина 205/55R16 Tracmax X-Privilo TX5 91V",
+    "/c/letnie/tracmax_205_55_r16_91v_x-privilo_tx5_351357": {
+      "title": "Tracmax 205/55 R16 91V X-Privilo TX5",
       "price": "4 050 ₽"
     },
     "/c/letnie/laufenn_155_70_r13_75t_g_fit_eq_lk41_321779": {
@@ -15622,12 +15630,12 @@
       "title": "Tracmax 185/60 R15 88H X-Privilo TX5",
       "price": "4 200 ₽"
     },
-    "/c/letnie/viatti_205_65_r15_99v_strada_2_v-134_329379": {
-      "title": "Viatti 205/65 R15 99V Strada 2 V-134",
+    "/c/letnie/tracmax_195_55_r16_87v_x-privilo_tx5_351351": {
+      "title": "Tracmax 195/55 R16 87V X-Privilo TX5",
       "price": "4 200 ₽"
     },
-    "/c/letnie/shina_195_55r16_tracmax_x-privilo_tx5_87v_351351": {
-      "title": "Шина 195/55R16 Tracmax X-Privilo TX5 87V",
+    "/c/letnie/viatti_205_65_r15_99v_strada_2_v-134_329379": {
+      "title": "Viatti 205/65 R15 99V Strada 2 V-134",
       "price": "4 200 ₽"
     },
     "/c/letnie/cordiant_175_70_r13_86t_run_tour_329127": {
@@ -15762,12 +15770,12 @@
       "title": "Torero 195/60 R15 88H Mp47 Hectorra 3",
       "price": "4 430 ₽"
     },
-    "/c/letnie/shina_205_55r16_roadx_h12_94v_351356": {
-      "title": "Шина 205/55R16 RoadX H12 94V",
+    "/c/letnie/roadx_205_55_r16_94v_h12_351356": {
+      "title": "RoadX 205/55 R16 94V H12",
       "price": "4 460 ₽"
     },
-    "/c/letnie/shina_205_60r16_tracmax_x-privilo_tx5_92v_351358": {
-      "title": "Шина 205/60R16 Tracmax X-Privilo TX5 92V",
+    "/c/letnie/tracmax_205_60_r16_92v_x-privilo_tx5_351358": {
+      "title": "Tracmax 205/60 R16 92V X-Privilo TX5",
       "price": "4 460 ₽"
     },
     "/c/letnie/triangle_195_55_r15_85v_te307_reliaxtouring_340099": {
@@ -15894,8 +15902,8 @@
       "title": "Roadstone 175/70 R14 84T CP661",
       "price": "4 720 ₽"
     },
-    "/c/letnie/shina_195_60r16_roadx_h12_89v_351353": {
-      "title": "Шина 195/60R16 RoadX H12 89V",
+    "/c/letnie/roadx_195_60_r16_89v_h12_351353": {
+      "title": "RoadX 195/60 R16 89V H12",
       "price": "4 720 ₽"
     },
     "/c/letnie/cordiant_195_65_r15_95h_run_tour_329128": {
@@ -15962,6 +15970,10 @@
       "title": "Tracmax 205/65 R16 95H X-Privilo TX5",
       "price": "4 840 ₽"
     },
+    "/c/letnie/tracmax_215_60_r16_95v_x-privilo_tx5_351361": {
+      "title": "Tracmax 215/60 R16 95V X-Privilo TX5",
+      "price": "4 840 ₽"
+    },
     "/c/letnie/zmax_185_r14_102_100r_vanmejor_c30_341717": {
       "title": "Zmax 185 R14 102/100R VANMEJOR C30",
       "price": "4 840 ₽"
@@ -15972,10 +15984,6 @@
     },
     "/c/letnie/zmax_215_50_r17_95w_zealion_319439": {
       "title": "Zmax 215/50 R17 95W Zealion",
-      "price": "4 840 ₽"
-    },
-    "/c/letnie/shina_215_60r16_tracmax_x-privilo_tx5_95v_351361": {
-      "title": "Шина 215/60R16 Tracmax X-Privilo TX5 95V",
       "price": "4 840 ₽"
     },
     "/c/letnie/aplus_205_65_r16_95h_a609_297672": {
@@ -16202,8 +16210,8 @@
       "title": "Ikon Tyres (Nokian Tyres) 155/65 R14 75T Autograph Eco 3",
       "price": "5 170 ₽"
     },
-    "/c/letnie/shina_225_45r18_tracmax_x-privilo_tx3_95y_351364": {
-      "title": "Шина 225/45R18 Tracmax X-Privilo TX3 95Y",
+    "/c/letnie/tracmax_225_45_r18_95y_x-privilo_tx3_351364": {
+      "title": "Tracmax 225/45 R18 95Y X-Privilo TX3",
       "price": "5 170 ₽"
     },
     "/c/letnie/ikon_tyres_nokian_tyres_185_65_r15_88h_character_eco_327624": {
@@ -16258,8 +16266,8 @@
       "title": "Tracmax 215/65 R16 98H X-Privilo TX5",
       "price": "5 250 ₽"
     },
-    "/c/letnie/shina_215_65r16_leao_nova-force_hp100_98h_351363": {
-      "title": "Шина 215/65R16 Leao Nova-Force HP100 98H",
+    "/c/letnie/leao_215_65_r16_98h_novaforce_hp100_351363": {
+      "title": "Leao 215/65 R16 98H NovaForce HP100",
       "price": "5 260 ₽"
     },
     "/c/letnie/cordiant_205_55_r16_94v_comfort_2_307804": {
@@ -16294,12 +16302,12 @@
       "title": "Pirelli 195/65 R15 91V Cinturato P1",
       "price": "5 310 ₽"
     },
-    "/c/letnie/tracmax_215_50_r17_95w_x-privilo_tx3_351220": {
-      "title": "Tracmax 215/50 R17 95W X-Privilo TX3",
+    "/c/letnie/roadx_215_60_r16_95v_h12_351360": {
+      "title": "RoadX 215/60 R16 95V H12",
       "price": "5 310 ₽"
     },
-    "/c/letnie/shina_215_60r16_roadx_h12_95v_351360": {
-      "title": "Шина 215/60R16 RoadX H12 95V",
+    "/c/letnie/tracmax_215_50_r17_95w_x-privilo_tx3_351220": {
+      "title": "Tracmax 215/50 R17 95W X-Privilo TX3",
       "price": "5 310 ₽"
     },
     "/c/letnie/triangle_205_60_r16_96v_te307_reliax_touring_343866": {
@@ -16314,12 +16322,12 @@
       "title": "Pirelli 185/55 R15 82V Formula Energy",
       "price": "5 340 ₽"
     },
-    "/c/letnie/zmax_185_75_r16_104_102r_terra_xplorer_c2_a_t_334908": {
-      "title": "Zmax 185/75 R16 104/102R TERRA XPLORER C2 A/T",
+    "/c/letnie/triangle_205_50_r15_89v_tr918_351354": {
+      "title": "Triangle 205/50 R15 89V TR918",
       "price": "5 350 ₽"
     },
-    "/c/letnie/shina_205_50r15_triangle_tr918_89v_351354": {
-      "title": "Шина 205/50R15 Triangle TR918 89V",
+    "/c/letnie/zmax_185_75_r16_104_102r_terra_xplorer_c2_a_t_334908": {
+      "title": "Zmax 185/75 R16 104/102R TERRA XPLORER C2 A/T",
       "price": "5 350 ₽"
     },
     "/c/letnie/laufenn_195_65_r15_91h_g_fit_eq_lk41_319552": {
@@ -16354,8 +16362,8 @@
       "title": "Hankook 195/65 R15 95T Kinergy Eco 2 K435",
       "price": "5 410 ₽"
     },
-    "/c/letnie/shina_215_55r17_tracmax_x-privilo_tx3_98w_351359": {
-      "title": "Шина 215/55R17 Tracmax X-Privilo TX3 98W",
+    "/c/letnie/tracmax_215_55_r17_98w_x-privilo_tx3_351359": {
+      "title": "Tracmax 215/55 R17 98W X-Privilo TX3",
       "price": "5 420 ₽"
     },
     "/c/letnie/gislaved_195_50_r15_82v_ultracontrol_322179": {
@@ -16734,12 +16742,12 @@
       "title": "Aplus 215/55 R18 99W A610",
       "price": "6 000 ₽"
     },
-    "/c/letnie/pirelli_195_50_r15_82v_cinturato_p1_339146": {
-      "title": "Pirelli 195/50 R15 82V Cinturato P1",
+    "/c/letnie/leao_225_60_r17_99v_novaforce_hp100_351365": {
+      "title": "Leao 225/60 R17 99V NovaForce HP100",
       "price": "6 000 ₽"
     },
-    "/c/letnie/shina_225_60r17_leao_nova-force_hp100_99v_351365": {
-      "title": "Шина 225/60R17 Leao Nova-Force HP100 99V",
+    "/c/letnie/pirelli_195_50_r15_82v_cinturato_p1_339146": {
+      "title": "Pirelli 195/50 R15 82V Cinturato P1",
       "price": "6 000 ₽"
     },
     "/c/letnie/ikon_tyres_nokian_tyres_185_65_r14_86h_autograph_eco_3_320895": {
@@ -16906,12 +16914,12 @@
       "title": "Gislaved 195/65 R15 91H PremiumControl",
       "price": "6 270 ₽"
     },
-    "/c/letnie/yokohama_185_60_r15_88h_bluearth_es32_105890": {
-      "title": "Yokohama 185/60 R15 88H BluEarth ES32",
+    "/c/letnie/roadx_215_60_r17_96h_h_t01_351362": {
+      "title": "RoadX 215/60 R17 96H H/T01",
       "price": "6 270 ₽"
     },
-    "/c/letnie/shina_215_60r17_roadx_h_t01_96h_351362": {
-      "title": "Шина 215/60R17 RoadX H/T01 96H",
+    "/c/letnie/yokohama_185_60_r15_88h_bluearth_es32_105890": {
+      "title": "Yokohama 185/60 R15 88H BluEarth ES32",
       "price": "6 270 ₽"
     },
     "/c/letnie/cordiant_185_75_r16c_104_102q_business_ca-1_kam_114076": {
@@ -17662,8 +17670,8 @@
       "title": "Sailun 225/70 R16 103T Turismo SV57",
       "price": "7 770 ₽"
     },
-    "/c/letnie/shina_235_55r19_leao_nova-force_uhp_105w_351366": {
-      "title": "Шина 235/55R19 Leao Nova-Force UHP 105W",
+    "/c/letnie/leao_235_55_r19_105w_novaforce_uhp_351366": {
+      "title": "Leao 235/55 R19 105W NovaForce UHP",
       "price": "7 780 ₽"
     },
     "/c/letnie/ikon_tyres_nokian_tyres_205_70_r15_96t_character_eco_339611": {
@@ -18506,10 +18514,6 @@
       "title": "Gislaved 215/55 R17 94V EcoControl",
       "price": "9 850 ₽"
     },
-    "/c/letnie/belshina_210_75_r13_bel-219_57a6_s_k_341165": {
-      "title": "Белшина 210/75 R13 Бел-219 57А6 с/к",
-      "price": "9 870 ₽"
-    },
     "/c/letnie/kama_225_75_r16_121_120r_trace_hk-135_312768": {
       "title": "Кама 225/75 R16 121/120R Trace (HK-135)",
       "price": "9 880 ₽"
@@ -18962,8 +18966,8 @@
       "title": "Pirelli 225/60 R18 100V Formula Rosso",
       "price": "11 280 ₽"
     },
-    "/c/letnie/shina_265_50r20_triangle_tr259_advantex_suv_111y_351367": {
-      "title": "Шина 265/50R20 Triangle TR259 AdvanteX SUV 111Y",
+    "/c/letnie/triangle_265_50_r20_111y_tr259_advantex_suv_351367": {
+      "title": "Triangle 265/50 R20 111Y TR259 AdvanteX SUV",
       "price": "11 300 ₽"
     },
     "/c/letnie/aplus_265_70_r17_121_118q_mud_terrain_a929_322917": {
@@ -19122,8 +19126,8 @@
       "title": "Ikon Tyres (Nokian Tyres) 225/45 R18 95W Character Ultra",
       "price": "11 980 ₽"
     },
-    "/c/letnie/shina_275_40r22_triangle_th201_sportex_108y_351368": {
-      "title": "Шина 275/40R22 Triangle TH201 SporteX 108Y",
+    "/c/letnie/triangle_275_40_r22_108y_th201_sportex_351368": {
+      "title": "Triangle 275/40 R22 108Y TH201 SporteX",
       "price": "12 000 ₽"
     },
     "/c/letnie/ikon_tyres_nokian_tyres_215_55_r17_98w_autograph_aqua_3_320920": {
