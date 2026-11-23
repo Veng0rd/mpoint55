@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:49:05.635Z",
+  "updatedAt": "2026-11-23T12:51:40.253Z",
   "source": "https://mpoint55.ru",
   "products": {
     "/c/motocikly/motocikl_ataki_t1-l_300_mx_347526": {
@@ -16,7 +16,7 @@
     },
     "/c/motocikly/motocikl_rockot_r5x_rampage_300_ss_344668": {
       "title": "Мотоцикл ROCKOT R5X Rampage (300 сс)",
-      "price": "165 750 ₽"
+      "price": "166 750 ₽"
     },
     "/c/motocikly/motocikl_kayo_k2_pro_21_18_300_ss_344666": {
       "title": "Мотоцикл KAYO K2 Pro 21/18 (300 сс)",
@@ -792,10 +792,6 @@
     },
     "/c/akkumulyatory/akkumulyator_77_680_tyumen_premium_-_-pryam_341645": {
       "title": "Аккумулятор 77 (680) Тюмень Премиум (+ -)-прям",
-      "price": "8 410 ₽"
-    },
-    "/c/akkumulyatory/akkumulyator_77_680_tyumen_premium_-_-obr_341646": {
-      "title": "Аккумулятор 77 (680) Тюмень Премиум (- +)-обр",
       "price": "8 410 ₽"
     },
     "/c/akkumulyatory/akkumulyator_60_540_mutlu_-_-pryam_seriya_3_339963": {
@@ -2178,10 +2174,6 @@
       "title": "Визор для шлема YAMAPA YM-927 цветное",
       "price": "720 ₽"
     },
-    "/c/motoshlema/vizor_dlya_shlema_ym-850_prozrachnyy_siniy_ottenok_334356": {
-      "title": "Визор для шлема YM-850 прозрачный (синий оттенок)",
-      "price": "720 ₽"
-    },
     "/c/motoshlema/vizor_dlya_shlema_ym-850_tonirovannyy_siniy_ottenok_344009": {
       "title": "Визор для шлема YM-850 тонированный (синий оттенок)",
       "price": "720 ₽"
@@ -2226,8 +2218,8 @@
       "title": "Мотошлем Safelead HF-109 размер M (синий Q24)",
       "price": "2 900 ₽"
     },
-    "/c/motoshlema/motoshlem_safelead_hf-109_razmer_s_belyy_343726": {
-      "title": "Мотошлем Safelead HF-109 размер S (белый)",
+    "/c/motoshlema/motoshlem_safelead_hf-109_razmer_s_chernyy_347800": {
+      "title": "Мотошлем Safelead HF-109 размер S (черный)",
       "price": "2 900 ₽"
     },
     "/c/motoshlema/motoshlem_safelead_hf-109_razmer_xl_chernyy_343727": {
@@ -2598,8 +2590,12 @@
       "title": "Мотошлем COBRA JK802 размер M (серо-оранжевый)",
       "price": "5 300 ₽"
     },
-    "/c/motoshlema/motoshlem_cobra_jk802_razmer_s_sero-oranzhevyy_333614": {
+    "/c/motoshlema/motoshlem_cobra_jk802_razmer_s_sero-oranzhevyy_347771": {
       "title": "Мотошлем COBRA JK802 размер S (серо-оранжевый)",
+      "price": "5 300 ₽"
+    },
+    "/c/motoshlema/motoshlem_cobra_jk802_razmer_xl_sero-oranzhevyy_333216": {
+      "title": "Мотошлем COBRA JK802 размер XL (серо-оранжевый)",
       "price": "5 300 ₽"
     },
     "/c/motoshlema/motoshlem_cobra_jk318_razmer_m_chernyy_zelenyy_1_s_ochkami_343716": {
@@ -2612,6 +2608,10 @@
     },
     "/c/motoshlema/motoshlem_cobra_jk318_razmer_xl_chernyy_zelenyy_1_s_ochkami_333600": {
       "title": "Мотошлем COBRA JK318 размер XL (черный/зеленый 1) с очками",
+      "price": "5 500 ₽"
+    },
+    "/c/motoshlema/motoshlem_cobra_jk902_razmer_l_cherno_zelenyy_6_s_ochkami_344546": {
+      "title": "Мотошлем COBRA JK902 размер L (черно/зеленый 6) с очками",
       "price": "5 500 ₽"
     },
     "/c/motoshlema/motoshlem_cobra_jk902_razmer_m_cherno_zelenyy_6_s_ochkami_333213": {
@@ -2668,10 +2668,6 @@
     },
     "/c/motoshlema/motoshlem_cobra_ec_h271_razmer_xl_cherno-oranzhevyy_fosh_347824": {
       "title": "Мотошлем COBRA EC H271 размер XL (черно-оранжевый) FOSH",
-      "price": "5 900 ₽"
-    },
-    "/c/motoshlema/motoshlem_wlt-167_razmer_l_matt_black_orange_3_332704": {
-      "title": "Мотошлем WLT-167 размер L (matt black/Orange #3)",
       "price": "5 900 ₽"
     },
     "/c/motoshlema/motoshlem_wlt-189_razmer_l_matt_red_6_332691": {
@@ -5075,7 +5071,7 @@
       "price": "116 870 ₽"
     },
     "/c/tehnika_pod_zakaz/motocikl_skaut_safari_3le-10_bigfoot_fara_pered_i_zad_podves._kp270_el.start_disk_torm_348539": {
-      "title": "Мотоцикл СКАУТ САФАРИ 3LE-10 BIGFOOT (ФАРА, перед и зад подвес., KP270, 'эл.старт, диск торм)",
+      "title": "Мотоцикл СКАУТ САФАРИ 3LE-10 BIGFOOT (ФАРА, перед и зад подвес., KP270, \"эл.старт, диск торм)",
       "price": "116 870 ₽"
     },
     "/c/tehnika_pod_zakaz/pitbayk_x-motos_140_19_16_black_pribor._panel_svetotehnika_348662": {
@@ -8050,10 +8046,6 @@
       "title": "Tracmax 185/65 R15 96T X-Privilo S360",
       "price": "5 070 ₽"
     },
-    "/c/zimnie/cordiant_205_65_r15_94t_winter_drive_112751": {
-      "title": "Cordiant 205/65 R15 94T Winter Drive",
-      "price": "5 080 ₽"
-    },
     "/c/zimnie/tracmax_205_55_r16_94t_x-privilo_s360_347569": {
       "title": "Tracmax 205/55 R16 94T X-Privilo S360",
       "price": "5 090 ₽"
@@ -8826,6 +8818,10 @@
       "title": "Pirelli 185/65 R15 88T Formula Ice",
       "price": "6 430 ₽"
     },
+    "/c/zimnie/ikon_tyres_nokian_tyres_185_70_r14_92t_character_ice_5_348932": {
+      "title": "Ikon Tyres (Nokian Tyres) 185/70 R14 92T Character Ice 5",
+      "price": "6 440 ₽"
+    },
     "/c/zimnie/hankook_185_60_r15_88t_winter_i_pike_rs2_w429_84202": {
       "title": "Hankook 185/60 R15 88T Winter I*Pike RS2 W429",
       "price": "6 470 ₽"
@@ -9250,10 +9246,6 @@
       "title": "Sailun 225/55 R17 101H Ice Blazer Arctic",
       "price": "7 080 ₽"
     },
-    "/c/zimnie/fortune_215_65_r16_102t_polaro_ice_349818": {
-      "title": "Fortune 215/65 R16 102T Polaro Ice",
-      "price": "7 100 ₽"
-    },
     "/c/zimnie/ikon_tyres_nokian_tyres_155_65_r14_75t_character_ice_8_333585": {
       "title": "Ikon Tyres (Nokian Tyres) 155/65 R14 75T Character Ice 8",
       "price": "7 100 ₽"
@@ -9341,10 +9333,6 @@
     "/c/zimnie/cordiant_215_55_r17_98t_winter_drive_112419": {
       "title": "Cordiant 215/55 R17 98T Winter Drive",
       "price": "7 240 ₽"
-    },
-    "/c/zimnie/hankook_185_55_r15_86t_winter_i_pike_rs2_w429_108662": {
-      "title": "Hankook 185/55 R15 86T Winter I*Pike RS2 W429",
-      "price": "7 250 ₽"
     },
     "/c/zimnie/hankook_195_65_r15_95t_winter_i_pike_rs2_w429_347910": {
       "title": "Hankook 195/65 R15 95T Winter I*Pike RS2 W429",
@@ -9445,6 +9433,10 @@
     "/c/zimnie/kapsen_185_r14c_102_100s_rw501_341706": {
       "title": "Kapsen 185 R14C 102/100S RW501",
       "price": "7 370 ₽"
+    },
+    "/c/zimnie/fortune_215_65_r16_102t_polaro_ice_347656": {
+      "title": "Fortune 215/65 R16 102T Polaro Ice",
+      "price": "7 400 ₽"
     },
     "/c/zimnie/fortune_205_50_r17_93t_polaro_ice_347522": {
       "title": "Fortune 205/50 R17 93T Polaro Ice",
@@ -9726,10 +9718,6 @@
       "title": "Cordiant 215/55 R16 97T Sno-Max 7000",
       "price": "7 850 ₽"
     },
-    "/c/zimnie/fortune_215_60_r17_100t_polaro_ice_347924": {
-      "title": "Fortune 215/60 R17 100T Polaro Ice",
-      "price": "7 850 ₽"
-    },
     "/c/zimnie/gislaved_195_55_r16_91t_soft_frost_200_74009": {
       "title": "Gislaved 195/55 R16 91T Soft Frost 200",
       "price": "7 850 ₽"
@@ -9932,10 +9920,6 @@
     },
     "/c/zimnie/landspider_215_60_r17_98t_arctictraxx_351417": {
       "title": "Landspider 215/60 R17 98T Arctictraxx",
-      "price": "8 300 ₽"
-    },
-    "/c/zimnie/triangle_215_70_r16_104q_snowlion_tr777_327110": {
-      "title": "Triangle 215/70 R16 104Q SnowLion TR777",
       "price": "8 300 ₽"
     },
     "/c/zimnie/triangle_225_60_r18_104r_snowlink_pl01_349329": {
@@ -11038,10 +11022,6 @@
       "title": "Viatti 205/70 R15C 106/104R Vettore Inverno V524",
       "price": "10 270 ₽"
     },
-    "/c/zimnie/triangle_235_45_r18_98t_icelynx_ti501_296447": {
-      "title": "Triangle 235/45 R18 98T IcelynX TI501",
-      "price": "10 280 ₽"
-    },
     "/c/zimnie/ikon_tyres_nokian_tyres_225_65_r17_106r_character_snow_2_suv_335133": {
       "title": "Ikon Tyres (Nokian Tyres) 225/65 R17 106R Character Snow 2 SUV",
       "price": "10 290 ₽"
@@ -11573,6 +11553,10 @@
     "/c/zimnie/tercelo_255_50_r20_109t_ice_knight_327275": {
       "title": "Tercelo 255/50 R20 109T Ice Knight",
       "price": "11 510 ₽"
+    },
+    "/c/zimnie/gislaved_205_75_r16c_110_108t_nord_frost_van_2_335141": {
+      "title": "Gislaved 205/75 R16C 110/108T Nord Frost Van 2",
+      "price": "11 520 ₽"
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_195_55_r16_91t_autograph_snow_5_347480": {
       "title": "Ikon Tyres (Nokian Tyres) 195/55 R16 91T Autograph Snow 5",
@@ -12560,10 +12544,6 @@
     },
     "/c/zimnie/ikon_tyres_nokian_tyres_265_65_r17_116t_character_ice_7_suv_333635": {
       "title": "Ikon Tyres (Nokian Tyres) 265/65 R17 116T Character Ice 7 SUV",
-      "price": "14 010 ₽"
-    },
-    "/c/zimnie/yokohama_225_70_r16_103q_iceguard_g075_326502": {
-      "title": "Yokohama 225/70 R16 103Q IceGuard G075",
       "price": "14 010 ₽"
     },
     "/c/zimnie/tourador_275_40_r21_107v_winter_pro_tsu1_327144": {
@@ -14006,6 +13986,10 @@
       "title": "Ikon Tyres (Nokian Tyres) 235/55 R18 104T Autograph Ice 9 SUV",
       "price": "20 160 ₽"
     },
+    "/c/zimnie/pirelli_225_45_r19_96t_ice_zero_349913": {
+      "title": "Pirelli 225/45 R19 96T Ice Zero",
+      "price": "20 160 ₽"
+    },
     "/c/zimnie/pirelli_235_55_r20_105t_ice_zero_339331": {
       "title": "Pirelli 235/55 R20 105T Ice Zero",
       "price": "20 170 ₽"
@@ -15390,10 +15374,6 @@
       "title": "Triangle 185/60 R14 82H TE307 ReliaXTouring",
       "price": "3 730 ₽"
     },
-    "/c/letnie/sailun_185_60_r14_82h_atrezzo_eco_96915": {
-      "title": "Sailun 185/60 R14 82H Atrezzo Eco",
-      "price": "3 740 ₽"
-    },
     "/c/letnie/bars_195_60_r15_88v_uz200_307430": {
       "title": "Bars 195/60 R15 88V UZ200",
       "price": "3 750 ₽"
@@ -15414,10 +15394,6 @@
       "title": "RoadX 185/70 R14 88H H11",
       "price": "3 780 ₽"
     },
-    "/c/letnie/viatti_175_70_r14_88h_strada_2_v-134_328618": {
-      "title": "Viatti 175/70 R14 88H Strada 2 V-134",
-      "price": "3 780 ₽"
-    },
     "/c/letnie/aplus_185_65_r15_88h_a608_297612": {
       "title": "Aplus 185/65 R15 88H A608",
       "price": "3 800 ₽"
@@ -15436,10 +15412,6 @@
     },
     "/c/letnie/roadstone_175_65_r14_82h_nblue_eco_56435": {
       "title": "Roadstone 175/65 R14 82H Nblue Eco",
-      "price": "3 800 ₽"
-    },
-    "/c/letnie/viatti_185_60_r15_88v_strada_2_v-134_318841": {
-      "title": "Viatti 185/60 R15 88V Strada 2 V-134",
       "price": "3 800 ₽"
     },
     "/c/letnie/viatti_195_65_r15_95v_strada_2_v-134_305240": {
@@ -15560,10 +15532,6 @@
     },
     "/c/letnie/roadx_185_55_r15_86v_h12_351203": {
       "title": "RoadX 185/55 R15 86V H12",
-      "price": "4 020 ₽"
-    },
-    "/c/letnie/belshina_185_70_r14_88t_bel-274_120731": {
-      "title": "Белшина 185/70 R14 88T Бел-274",
       "price": "4 020 ₽"
     },
     "/c/letnie/attar_195_55_r15_89v_s01_330571": {
@@ -15802,6 +15770,10 @@
       "title": "Zmax 205/65 R16 95T LY688",
       "price": "4 380 ₽"
     },
+    "/c/letnie/viatti_175_70_r14_88h_strada_2_v-134_339566": {
+      "title": "Viatti 175/70 R14 88H Strada 2 V-134",
+      "price": "4 420 ₽"
+    },
     "/c/letnie/cordiant_175_65_r14_86h_comfort_2_92912": {
       "title": "Cordiant 175/65 R14 86H Comfort 2",
       "price": "4 430 ₽"
@@ -15897,10 +15869,6 @@
     "/c/letnie/cordiant_185_60_r14_86h_gravity_321825": {
       "title": "Cordiant 185/60 R14 86H Gravity",
       "price": "4 650 ₽"
-    },
-    "/c/letnie/sailun_185_70_r14_88h_atrezzo_eco_96922": {
-      "title": "Sailun 185/70 R14 88H Atrezzo Eco",
-      "price": "4 660 ₽"
     },
     "/c/letnie/kama_205_65_r15_94t_breeze_339610": {
       "title": "Кама 205/65 R15 94T BREEZE",
@@ -16118,10 +16086,6 @@
       "title": "Attar 215/65 R16 98H S02",
       "price": "4 980 ₽"
     },
-    "/c/letnie/hankook_175_65_r14_82t_kinergy_eco_2_k435_127950": {
-      "title": "Hankook 175/65 R14 82T Kinergy Eco 2 K435",
-      "price": "4 990 ₽"
-    },
     "/c/letnie/cordiant_205_55_r16_94h_road_runner_300054": {
       "title": "Cordiant 205/55 R16 94H Road Runner",
       "price": "5 010 ₽"
@@ -16161,10 +16125,6 @@
     "/c/letnie/doublestar_205_70_r15_96h_dh03_351474": {
       "title": "Doublestar 205/70 R15 96H DH03",
       "price": "5 100 ₽"
-    },
-    "/c/letnie/forward_175_r16_98_96n_professional_462_s_k_341145": {
-      "title": "Forward 175 R16 98/96N Professional 462 с/к",
-      "price": "5 110 ₽"
     },
     "/c/letnie/laufenn_175_70_r14_84t_g_fit_eq_lk41_318191": {
       "title": "Laufenn 175/70 R14 84T G FIT EQ+ LK41",
@@ -17910,10 +17870,6 @@
       "title": "Vittos 245/70 R16 111T Vsa66",
       "price": "8 410 ₽"
     },
-    "/c/letnie/triangle_225_60_r18_104w_tr259_advantex_suv_342354": {
-      "title": "Triangle 225/60 R18 104W TR259 Advantex SUV",
-      "price": "8 420 ₽"
-    },
     "/c/letnie/gislaved_195_55_r16_91v_premiumcontrol_322181": {
       "title": "Gislaved 195/55 R16 91V PremiumControl",
       "price": "8 450 ₽"
@@ -18565,10 +18521,6 @@
     "/c/letnie/ikon_tyres_nokian_tyres_205_65_r16_99v_autograph_aqua_3_320990": {
       "title": "Ikon Tyres (Nokian Tyres) 205/65 R16 99V Autograph Aqua 3",
       "price": "9 980 ₽"
-    },
-    "/c/letnie/comforser_245_70_r16_111t_cf1100_327156": {
-      "title": "Comforser 245/70 R16 111T CF1100",
-      "price": "10 010 ₽"
     },
     "/c/letnie/ikon_tyres_nokian_tyres_235_70_r16_106h_nordman_s2_suv_342411": {
       "title": "Ikon Tyres (Nokian Tyres) 235/70 R16 106H Nordman S2 SUV",
@@ -20201,10 +20153,6 @@
     "/c/letnie/pirelli_255_55_r19_107w_p-zero_sports_car_320994": {
       "title": "Pirelli 255/55 R19 107W P-Zero Sports Car",
       "price": "27 640 ₽"
-    },
-    "/c/letnie/yokohama_245_45_r20_99v_parada_spec-x_pa02j_318794": {
-      "title": "Yokohama 245/45 R20 99V Parada Spec-X PA02J",
-      "price": "27 990 ₽"
     },
     "/c/letnie/pirelli_295_40_r21_111y_scorpion_verde_120741": {
       "title": "Pirelli 295/40 R21 111Y Scorpion Verde",
